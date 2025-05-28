@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A015EE7F-336D-424A-8FD4-5FD300D06DCB}|WebApp\\WebApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\faculta\\proiecte\\aspnet course\\learnrouting\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A015EE7F-336D-424A-8FD4-5FD300D06DCB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A015EE7F-336D-424A-8FD4-5FD300D06DCB}|WebApp\\WebApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\faculta\\proiecte\\aspnet course\\learnrouting\\webapp\\models\\employeesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A015EE7F-336D-424A-8FD4-5FD300D06DCB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\employeesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A015EE7F-336D-424A-8FD4-5FD300D06DCB}|WebApp\\WebApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\faculta\\proiecte\\aspnet course\\learnrouting\\webapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A015EE7F-336D-424A-8FD4-5FD300D06DCB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,6 +33,40 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Faculta\\Proiecte\\ASPNET course\\LearnRouting\\WebApp\\Models\\EmployeesRepository.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\EmployeesRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Faculta\\Proiecte\\ASPNET course\\LearnRouting\\WebApp\\Models\\EmployeesRepository.cs",
+              "RelativeToolTip": "WebApp\\Models\\EmployeesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:46:07.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Faculta\\Proiecte\\ASPNET course\\LearnRouting\\WebApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Faculta\\Proiecte\\ASPNET course\\LearnRouting\\WebApp\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:45:45.608Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
@@ -32,7 +74,7 @@
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
               "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Faculta\\Proiecte\\ASPNET course\\LearnRouting\\WebApp\\Program.cs",
               "RelativeToolTip": "WebApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwHAAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T12:30:41.594Z",
               "EditorCaption": ""
