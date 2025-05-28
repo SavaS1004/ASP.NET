@@ -1,5 +1,6 @@
 
 
+using Microsoft.AspNetCore.Mvc;
 using ModelBiding.Models;
 using System.Text.Json;
 
@@ -16,44 +17,32 @@ app.UseEndpoints(endpoints =>
         await context.Response.WriteAsync("Welcome to the home page.");
     });
 
-    endpoints.MapGet("/employees", async (HttpContext context) =>
-    {
-        // Get all of the employees' information
-        var employees = EmployeesRepository.GetEmployees();
+    //endpoints.MapGet("/employees", async (HttpContext context) =>
+    //{
+    //    // Get all of the employees' information
+    //    var employees = EmployeesRepository.GetEmployees();
 
-        context.Response.ContentType = "text/html";
-        await context.Response.WriteAsync("<h2>Employees</h2>");
-        await context.Response.WriteAsync("<ul>");
-        foreach (var employee in employees)
-        {
-            await context.Response.WriteAsync($"<li><b>{employee.Name}</b>: {employee.Position}</li>");
-        }
-        await context.Response.WriteAsync("</ul>");
+    //    context.Response.ContentType = "text/html";
+    //    await context.Response.WriteAsync("<h2>Employees</h2>");
+    //    await context.Response.WriteAsync("<ul>");
+    //    foreach (var employee in employees)
+    //    {
+    //        await context.Response.WriteAsync($"<li><b>{employee.Name}</b>: {employee.Position}</li>");
+    //    }
+    //    await context.Response.WriteAsync("</ul>");
 
-    });
+    //});
 
-    endpoints.MapGet("/employees/{id:int}", async (HttpContext context) =>
-    {
-        var id = context.Request.RouteValues["id"];
-        var employeeId = int.Parse(id.ToString());
+    endpoints.MapGet("/employees/{id:int}",([AsParameters]GetEmployeeParameters param)  =>
+    {    
+       
+            var employee = EmployeesRepository.GetEmployeeById(param.Id);
+        employee.Name = param.Name;
+        employee.Position = param.Position;
+        return employee;
 
-        // Get a particular employee's information
-        var employee = EmployeesRepository.GetEmployeeById(employeeId);
 
-        context.Response.ContentType = "text/html";
 
-        await context.Response.WriteAsync("<h2>Employee</h2>");
-        if (employee is not null)
-        {
-            await context.Response.WriteAsync($"Name: {employee.Name}<br/>");
-            await context.Response.WriteAsync($"Position: {employee.Position}<br/>");
-            await context.Response.WriteAsync($"Salary: {employee.Salary}<br/>");
-        }
-        else
-        {
-            context.Response.StatusCode = 404;
-            await context.Response.WriteAsync("Employee not found.");
-        }
 
 
     });
@@ -137,6 +126,14 @@ app.UseEndpoints(endpoints =>
 });
 
 app.Run();
+struct GetEmployeeParameters
+{
+    public int Id { get; set; }
+    public string? Name { get; set; }
+    [FromHeader]
+    public string? Position { get; set; }
+
+}
 
 
 

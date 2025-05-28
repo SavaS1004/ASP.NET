@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModelBiding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc57768baa571eeb06b37a22ece5113268df6a00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29fbb4da48036c90c74a655884e2a57cc18d6aa3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModelBiding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModelBiding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
