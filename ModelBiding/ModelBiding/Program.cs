@@ -1,7 +1,9 @@
 
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 using ModelBiding.Models;
+using System.Net.Sockets;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,11 @@ app.UseEndpoints(endpoints =>
     endpoints.MapGet("/", async (HttpContext context) =>
     {
         await context.Response.WriteAsync("Welcome to the home page.");
+    });
+
+    endpoints.MapGet("/people", (Person? p) =>
+    {
+        return $"Id:{p?.Id},name:{p?.Name}";
     });
 
     //endpoints.MapGet("/employees", async (HttpContext context) =>
@@ -47,32 +54,17 @@ app.UseEndpoints(endpoints =>
 
     });
 
-    endpoints.MapPost("/employees", async (HttpContext context) =>
+    endpoints.MapPost("/employees", (Employee employee) =>
     {
-        using var reader = new StreamReader(context.Request.Body);
-        var body = await reader.ReadToEndAsync();
-
-        try
-        {
-            var employee = JsonSerializer.Deserialize<Employee>(body);
 
             if (employee is null || employee.Id <= 0)
             {
-                context.Response.StatusCode = 400;
-                return;
+                
+                return "Employee added successfully.";
             }
-
             EmployeesRepository.AddEmployee(employee);
-
-            context.Response.StatusCode = 201;
-            await context.Response.WriteAsync("Employee added successfully.");
-        }
-        catch (Exception ex)
-        {
-            context.Response.StatusCode = 400;
-            await context.Response.WriteAsync(ex.ToString());
-            return;
-        }
+            return"Employee added successfully";
+        
 
     });
 
@@ -126,6 +118,23 @@ app.UseEndpoints(endpoints =>
 });
 
 app.Run();
+
+class Person
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public static ValueTask<Person? > BindAsync(HttpContext context)
+    {
+        var idStr = context.Request.Query["id"];
+        var nameStr = context.Request.Query["name"];
+        if(int.TryParse(idStr, out var id) )
+        {
+            return new ValueTask<Person?>(new Person { Id = id, Name = nameStr });
+        }
+        return new ValueTask<Person?>(Task.FromResult<Person?>(null));
+    }
+
+}
 struct GetEmployeeParameters
 {
     public int Id { get; set; }

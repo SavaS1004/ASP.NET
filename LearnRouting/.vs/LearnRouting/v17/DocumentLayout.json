@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -50,8 +54,7 @@
               "RelativeToolTip": "WebApp\\Models\\EmployeesRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAUwA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:46:07.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T07:46:07.124Z"
             },
             {
               "$type": "Document",
@@ -63,8 +66,7 @@
               "RelativeToolTip": "WebApp\\Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:45:45.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T07:45:45.608Z"
             },
             {
               "$type": "Document",
@@ -74,7 +76,7 @@
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
               "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Faculta\\Proiecte\\ASPNET course\\LearnRouting\\WebApp\\Program.cs",
               "RelativeToolTip": "WebApp\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAqwHAAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T12:30:41.594Z",
               "EditorCaption": ""

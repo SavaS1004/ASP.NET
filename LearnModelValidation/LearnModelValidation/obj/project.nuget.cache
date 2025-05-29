@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "UiFVTwFvDmE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Faculta\\Proiecte\\ASPNET course\\LearnModelValidation\\LearnModelValidation\\LearnModelValidation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\bondx.minimalapi.extensions\\1.0.1\\bondx.minimalapi.extensions.1.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\minimalapi.endpoint\\1.3.0\\minimalapi.endpoint.1.3.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
