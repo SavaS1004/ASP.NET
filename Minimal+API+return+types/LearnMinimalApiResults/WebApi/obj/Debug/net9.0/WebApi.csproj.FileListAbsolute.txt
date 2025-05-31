@@ -1,0 +1,8 @@
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\OneDrive\Desktop\Faculta\Proiecte\ASPNET course\Minimal+API+return+types\LearnMinimalApiResults\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json
